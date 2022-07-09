@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 40px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color: rgb(240, 0, 0);
+    transition: 0.4s;
+}
+@media only screen and (max-width:1050px){
+    
+    nav ul{
+        width: 100%;
+        height: 240px;
+        background-color: rgb(55, 55, 55);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        padding-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+}
+.name{
+    border-top: 1px solid black;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.name-chinese{
+    letter-spacing: 5px;
+    font-size: 27px;
+    text-align: center;
+}
+.name-english{
+    font-size: 18px;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.social-icon:hover{
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+.h-content1{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+.h-content2{
+    padding-top: 20px;
+    padding-bottom:20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.h-contant1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.mail{
+    text-decoration: none;
+    color: black;
+}
+.mail:hover{
+    color: red;
+    transition: 0.3s;
+}
+.copyright-box{
+    background-color: black;
+    margin-bottom: 25px;
+}
+.copyright{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+.rock{
+    text-decoration: none;
+    color: rgb(200, 0, 0);
+    font-size: 15px;
+}
+.rock:hover{
+    color: white;
+    transition: 0.3s;
+}
+.top{
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

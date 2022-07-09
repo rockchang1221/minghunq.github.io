@@ -1,0 +1,39 @@
+.title0{
+    color: white;
+    text-align: center;
+}
+.map{
+    height: 50vh;
+    margin-top: 20px;
+    margin-left:8% ;
+    margin-right: 8%;
+    width: 84%;
+}
+.title1{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.title2{
+    font-size: 18px;
+    padding-bottom: 2px;
+}
+.form{
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.title3{
+    text-align: center;
+    font-size: 30px;
+}
+.line2{
+    width: 120px;
+    margin: 0 auto;
+    border: 0.5px solid rgb(146, 146, 146);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title4{
+    font-size: 18px;
+    padding-bottom: 3px;
+}
